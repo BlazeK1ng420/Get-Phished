@@ -656,11 +656,9 @@ main_menu() {
 		tunnel_menu
 	elif [[ "$REPLY" == 34 ]]; then
 		website="kik"
-		mask='http://kik-team'
 		tunnel_menu
 	elif [[ "$REPLY" == 35 ]]; then
 		website="rage"
-		mask='http://unbrick-my-kik-plz'
 		tunnel_menu
 	elif [[ "$REPLY" == 99 ]]; then
 		about
