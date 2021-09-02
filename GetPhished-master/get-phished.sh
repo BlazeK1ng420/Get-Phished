@@ -142,7 +142,7 @@ banner() {
 		${MAGENTA}▐         █    ▐   █             █          █   █    █       █ ▐       █   █     █    ▐   █     ▐   
 		${MAGENTA}          ▐        ▐             ▐          ▐   ▐    ▐       ▐         ▐   ▐     ▐        ▐                       
 		${MAGENTA}                                                             
-	        ${CYAN}Cha-Cha Real Smooth~~~~                                                      ${RED}Ver : 0.1-beta
+		${CYAN}Cha-Cha Real Smooth~~~~                                                      ${RED}Ver : 0.1-beta
 
 		${RED}~~~~~${GREEN}ReviveD by @blazes w/Zero LMAO. ${CYAN}ILuvYall<3${GREEN}(More to come? kik.me/blazes)${RED}~~~~~
 		
