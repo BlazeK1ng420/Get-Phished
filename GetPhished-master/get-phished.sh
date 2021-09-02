@@ -521,9 +521,9 @@ main_menu() {
 		
 		${RED}[${WHITE}34${RED}]${ORANGE} Rage Unbrick
 		${RED}[${WHITE}35${RED}]${ORANGE} Kik.com/login
-
-        ${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
-
+		
+		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
+		
 		${RED}[${WHITE}99${RED}]${ORANGE} About         ${RED}[${WHITE}00${RED}]${ORANGE} Exit
 
 	EOF
